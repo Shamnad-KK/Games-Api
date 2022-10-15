@@ -56,10 +56,12 @@ class HomeScreen extends StatelessWidget {
                                   height: 80,
                                   width: double.infinity,
                                   decoration: const BoxDecoration(
-                                      color: Color.fromARGB(194, 255, 255, 255),
-                                      borderRadius: BorderRadius.only(
-                                          topLeft: Radius.circular(15),
-                                          topRight: Radius.circular(15))),
+                                    color: Color.fromARGB(194, 255, 255, 255),
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(15),
+                                      topRight: Radius.circular(15),
+                                    ),
+                                  ),
                                   child: ListTile(
                                     title: FittedBox(
                                       child: Column(
